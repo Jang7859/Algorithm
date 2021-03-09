@@ -42,19 +42,19 @@ void MergeSort(int arr[], int left, int right){
     }
 }
 
-int main(void){
-    
-    int arr[SIZE] ={6,45,3,8,30,6,1,58,23,96};
-    for(int i=0;i<SIZE;i++){
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-    MergeSort(arr,0, SIZE-1);
-    for(int i=0;i<SIZE;i++){
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-    
-    return 0;
-}
+//int main(void){
+//
+//    int arr[SIZE] ={6,45,3,8,30,6,1,58,23,96};
+//    for(int i=0;i<SIZE;i++){
+//        printf("%d ", arr[i]);
+//    }
+//    printf("\n");
+//    MergeSort(arr,0, SIZE-1);
+//    for(int i=0;i<SIZE;i++){
+//        printf("%d ", arr[i]);
+//    }
+//    printf("\n");
+//
+//    return 0;
+//}
 
