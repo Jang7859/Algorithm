@@ -23,10 +23,11 @@ void Merge(int arr[], int left, int mid, int right){
     while(j<=right) temparr[k++] = arr[j++];
     k--;
     
-    while(k>=0){
-        arr[left+k] = temparr[k];
-        k--;
-    }
+    memcpy(arr+left,temparr, sizeof(int)*(right-left+1));
+//     while(k>=0){
+//         arr[left+k] = temparr[k];
+//         k--;
+//     }
     
 }
 
