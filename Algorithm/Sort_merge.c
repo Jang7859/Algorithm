@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#include <string.h>
 #define SIZE 10
 void Merge(int arr[], int left, int mid, int right){
     int i, j, k=0;
